@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyGWeb</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="web.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">My<span>Geo</span>Web</a>
+      <div class="navbar-nav">
+        <a href="#Home">Home</a>
+        <a href="#MyWork">MyWork</a>
+        <a href="#Dashboard">Dashboard</a>
+        <a href="#AboutMe">AboutMe</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="pie-chart"><i data-feather="pie-chart"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="Home">
+        <main class="content">
+            <h1>Welcome to <i>My<span>Geo</span>Web</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="cta">See My Profile</a>
+        </main>
+    </section>
+    <!-- Hero Section End -->
+
+     <!-- Image Section Start -->
+     <section id="MyWork" class="image">
+        <div class="grid">
+            <div class="left">
+                <img src="img/img-Cart.jpg" alt=""/>
+            </div>
+            <div class="center1">
+                <img src="img/img-remote.jpg" alt=""/>
+            </div>
+            <div class="center2">
+                <img src="img/img-GIS.jpg" alt=""/>
+            </div>
+            <div class="right">
+                <img src="img/img-survey.jpg" alt=""/>
+            </div>
+        </div>
+    </section> 
+    <!-- Image Section End -->
+
+    <!-- Aboutme Section Start -->
+    <section id="AboutMe" class="AboutMe">
+        <h2>Tentang <span>Saya</span></h2>
+    </section>
+    <!-- Aboutme Section End -->
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- MyJavascript -->
+    <script src="script.js">
+    </script>
+  </body>
+</html>
